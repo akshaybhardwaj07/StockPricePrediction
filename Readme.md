@@ -38,3 +38,9 @@ Press Ctrl + Shift + P
 Type and select "Python: Select Interpreter"
 
 Choose: ./venv/Scripts/python
+
+#install libaries
+pip install pandas numpy tensorflow matplotlib flask yfinance scikit-learn
+
+#Run application
+python app.py
