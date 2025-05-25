@@ -1,18 +1,40 @@
-Stock Price Prediction
+# 📈 Stock Price Prediction
 
-Import model
-pandas
-numpy
-tensorflow
-matplotlib
-flask
-yfinance
-logging
-scikit-learn
+This project is a stock price prediction web application built using Python, TensorFlow, Flask, and other supporting libraries. It uses historical stock data to predict future prices using machine learning models.
 
+---
 
-venv create-- python -m venv venv
-venv activate --.\venv\Scripts\Activate.ps1 
-select python interpreter ctrl+shift+p -> Add interpreter project/venv/scripts/python
+## 🛠️ Technologies Used
 
-python app.py
+- **Python**
+- **Pandas**
+- **NumPy**
+- **TensorFlow**
+- **scikit-learn**
+- **Matplotlib**
+- **Flask**
+- **yfinance**
+- **logging**
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone git@github.com:akshaybhardwaj07/StockPricePrediction.git
+cd StockPricePrediction
+
+# Create virtual environment
+python -m venv venv
+
+# Activate on Windows (PowerShell)
+.\venv\Scripts\Activate.ps1
+
+3. Select Python Interpreter (VS Code)
+Press Ctrl + Shift + P
+
+Type and select "Python: Select Interpreter"
+
+Choose: ./venv/Scripts/python
